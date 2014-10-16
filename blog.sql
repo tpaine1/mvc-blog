@@ -30,10 +30,10 @@ CREATE TABLE IF NOT EXISTS `blog` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   `content` text NOT NULL,
-  `last_update` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `author` varchar(255) NOT NULL DEFAULT 'Elvis Hsu',
+  `last_update` datetime,
+  `author` varchar(255),
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=UTF8 AUTO_INCREMENT=10 ;
 
 --
 -- Dumping data for table `blog`
