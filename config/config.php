@@ -46,11 +46,11 @@ $cfg['site']['email_sender'] = 'WebMaster <elvishsu66@gmail.com>';
 */
 $cfg['db']['hostname'] = 'localhost'; // use 127.0.0.1 instead of localhost in windows
 $cfg['db']['username'] = 'root';
-$cfg['db']['password'] = '';
+$cfg['db']['password'] = 'root';
 /**
 * The Default selected DB
 */
-$cfg['db']['database'] = 'test';
+$cfg['db']['database'] = 'mvc_blog_db';
 
 /************************************************************* 
 * PHP ini settings - Please refer \apache\bin\php.ini
